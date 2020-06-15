@@ -40,6 +40,10 @@ figure {
 /* ----------------------------------------------------------------*/
 /* Lightbox styles */
 /* ----------------------------------------------------------------*/
+.lightbox {
+    top: 130px !important;
+}
+
 .lb-data .lb-caption {
     max-width: 600px;
 }
@@ -60,6 +64,11 @@ figure {
     z-index: -100;
 }
 
+.lb-close {
+    position: relative;
+    top: -22em;
+}
+
 /* ----------------------------------------------------------------*/
 /* Media Queries */
 /* ----------------------------------------------------------------*/
@@ -76,6 +85,14 @@ figure {
         width: 50%;
         margin: 35px auto;
     }
+
+    .lb-close {
+        top: -35em;
+    }
+
+    .lightbox {
+        top: 50px !important;
+    }
 }
 
 /* Tablets in landscape mode (Between 992px and 1366px) */
@@ -88,6 +105,14 @@ figure {
     .searchbar {
         width: 40%;
         margin: 20px auto;
+    }
+
+    .lb-close {
+        top: -45em;
+    }
+
+    .lightbox {
+        top: 50px !important;
     }
 }
 
@@ -106,5 +131,14 @@ figure {
 
     figure {
         padding-bottom: 70px;
+    }
+
+    .lb-close {
+        top: -56rem;
+        right: -3rem;
+    }
+
+    .lightbox {
+        top: 50px !important;
     }
 }
