@@ -126,6 +126,7 @@ figure {
     .img-container {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
+        margin: auto 5%
     }
 
     figure {
@@ -153,5 +154,11 @@ figure {
 
     .lb-nav a.lb-prev {
         left: -150px;
+    }
+}
+
+@media (min-width: 1830px) {
+    .img-container {
+        margin: auto 10%;
     }
 }
