@@ -141,4 +141,18 @@ figure {
     .lightbox {
         top: 50px !important;
     }
+
+    .lb-nav a.lb-next,
+    .lb-nav a.lb-prev {
+        position: relative;
+        opacity: 1;
+    }
+
+    .lb-nav a.lb-next {
+        left: 150px;
+    }
+
+    .lb-nav a.lb-prev {
+        left: -150px;
+    }
 }
